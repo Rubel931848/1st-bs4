@@ -1,0 +1,60 @@
+html{
+    scroll-behavior: smooth;
+}
+.container > .navbar-brand{
+    color:#6f6d6d;
+}
+.container > .navbar-brand:hover{
+    color:#069c54;
+}
+.navbar-nav > .nav-item > .nav-link:hover{
+    color:#069c54;
+}
+.testy-food{
+    margin-top:75px;
+}
+.about > .container > .row > .about-right >.about-discrip > p:nth-of-type(1){
+    font-size:2.5rem
+}
+.manu .row .card{
+    position: relative;
+}
+.manu .row .card::after{
+    content: "";
+    height: 20px;
+    width: 40px;
+    background: green;
+    display: block;
+    position: absolute;
+    right:0;
+    bottom:0;
+    border-radius: 15px 0px 4px 0px;
+    cursor:pointer;
+}
+.app .card .card-body img{
+    width:90%;
+}
+@media screen and (max-width:768px){
+    html{
+        font-size: 80%;
+    }
+    .about-left{
+       order:2 ;
+       margin-top:2rem;
+    }
+    .about-right{
+       order:1;
+       text-align:center;
+    }
+    .appright{
+        order:1;
+        text-align: center;
+    }
+    .appleft{
+        order:2;
+    }
+    .footer-top .row .col-sm-3{
+        text-align: center;
+        margin-top:1rem;
+    }
+}
